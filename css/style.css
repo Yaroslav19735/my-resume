@@ -171,3 +171,25 @@ img {
     display: flex;
     margin-bottom: 5px;
 }
+
+.tech-skills-list {
+    padding: 0 0 0 22px;
+}
+
+.tech-skills-item {
+    color: #c03a3a;
+}
+
+.tech-skills-section {
+    margin: 50px 0 0 40px;
+}
+
+.tech-skills-item-text {
+    font-weight: normal;
+    color: #fff;
+}
+
+.soft-skills-section {
+    margin: 50px 0 0 40px;
+}
+
