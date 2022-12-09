@@ -40,8 +40,22 @@ img {
     -moz-box-shadow: 10px -8px 19px 0px rgba(0, 0, 0, 0.78);
 }
 
+.link {
+    text-decoration: none;
+}
+
 .main-content-section {
     padding: 100px 90px;
+}
+
+.main-content-title,
+.my-education-header,
+.sidebar-title {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 1.22;
+    color: #000;
+    margin-bottom: 12px;
 }
 
 .about-me-section {
@@ -93,4 +107,67 @@ img {
 .my-projects-description {
     font-weight: 400;
     color: #595959;
+}
+
+.my-education-university {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #c03a3a;
+
+    margin-bottom: 11px;
+}
+
+.faculty-first {
+    font-weight: bold;
+    line-height: 17px;
+}
+
+.faculty-first {
+    margin-bottom: 20px;
+}
+
+.photo {
+    /* width: 100%;
+  border-radius: 180px; */
+    width: 300px;
+    display: flex;
+    border-radius: 150px;
+    margin: auto;
+}
+
+.sidebar-section {
+    
+    background-color: #3c3c40;
+    width: 370px;
+    padding: 40px 0;
+    border-top-left-radius: 196px;
+    border-top-right-radius: 196px;
+    box-shadow: 18px 17px 19px 5px rgba(0, 0, 0, 0.55);
+    -webkit-box-shadow: 18px 17px 19px 5px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 18px 17px 19px 5px rgba(0, 0, 0, 0.55);
+
+    /* background: #181414;
+    background: linear-gradient(22deg, #000000 0%, #e6e6e6 80%);
+    background: -webkit-linear-gradient(22deg, #181414 0%, #7e8b7e 80%);
+    background: -moz-linear-gradient(22deg, #181414 0%, #7e8b7e 80%); */
+}
+
+.sidebar-title {
+    color: #fff;
+}
+
+.contacts-section {
+    margin: 50px 0 0 40px;
+}
+
+.contact-section-type {
+    color: #fff;
+    display: flex;
+}
+
+.contact-section-link {
+    color: #fff;
+    display: flex;
+    margin-bottom: 5px;
 }
